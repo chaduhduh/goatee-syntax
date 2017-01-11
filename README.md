@@ -1,4 +1,4 @@
 # Goatee Syntax
 Goatee syntax definitions for Sublime Text. 
 
-Package: simpleviewinc/goatee
+Package Info: [@simpleviewinc/goatee](https://github.com/simpleviewinc/goatee)
