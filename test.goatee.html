@@ -1,0 +1,33 @@
+{{~exec(function() {
+	// reduce our subcats to only those chosen within the UI in CMS, if none are chosen, assume all
+	helpers.var.validSubcats = data.data.listingsubcats !== undefined ? data.subcats_raw.filter(val => data.data.listingsubcats.indexOf(val.value.toString()) !== -1) : data.subcats_raw;
+	helpers.var.showSubcats = helpers.var.validSubcats.length > 1;
+	helpers.var.template = "listings_custom_listings_list_filter";
+})}}
+
+{{#doThis}}
+{{/}}
+
+{{:~equal("this", "that")}}
+{{/}}
+
+{{:~contains("this", [1,2])}}
+{{/}}
+
+{{~setVar("this", "that")}}
+
+{{key}}
+{{:key}} {{/key}}
+{{!key}} {{/key}}
+{{:key}} {{?:key2}} {{?!key2}} {{?}} {{/}}
+{{>key}}
+{{+key}} {{/key}}
+{{*key}} - Global data.
+{{#key}} {{key}}
+{{%key}} 
+{{%%key}}
+{{@key}}
+{{~key}}
+{{$}} {{/key}}
+{{---key}}
+
