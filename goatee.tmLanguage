@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>comment</key>
-	<string>Syntax highlighting support for the Laravel Blade markup.</string>
+	<string>Syntax highlighting support for Goatee.</string>
 	<key>fileTypes</key>
 	<array>
 		<string>.html</string>
@@ -24,7 +24,7 @@
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.comment.laravel-blade.php</string>
+					<string>punctuation.definition.comment.goatee</string>
 				</dict>
 			</dict>
 			<key>comment</key>
@@ -32,7 +32,7 @@
 			<key>end</key>
 			<string>--\}\}</string>
 			<key>name</key>
-			<string>comment.block.laravel-blade.php</string>
+			<string>comment.block.goatee</string>
 		</dict>
 		<dict>
 			<key>include</key>
